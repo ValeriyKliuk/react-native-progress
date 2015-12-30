@@ -3,11 +3,8 @@
 var React = require('react-native');
 var {
   PropTypes,
-  ART: {
-    Shape,
-    Path
-  }
 } = React;
+var { Surface, Shape, Path } = require('../../react-native/Libraries/ART/ReactNativeART');
 
 var makeCirclePath = function(x, y, radius, direction) {
   var arcMethod = direction === 'counter-clockwise' ? 'counterArc' : 'arc';

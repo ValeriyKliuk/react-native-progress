@@ -5,11 +5,9 @@ var {
   View,
   PropTypes,
   Text,
-  ART: {
-    Surface
-  }
 } = React;
 
+var { Surface, Shape, Path } = require('../react-native/Libraries/ART/ReactNativeART');
 var Circle = require('./Shapes/Circle');
 
 var ProgressCircle = React.createClass({

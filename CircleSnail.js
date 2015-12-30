@@ -6,11 +6,9 @@ var {
   PropTypes,
   Animated,
   Easing,
-  ART: {
-    Surface
-  }
 } = React;
 
+var { Surface, Shape, Path } = require('../react-native/Libraries/ART/ReactNativeART');
 var Arc = Animated.createAnimatedComponent(require('./Shapes/Arc'))
 
 var MIN_ARC_ANGLE = 0.1;

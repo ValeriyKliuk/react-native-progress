@@ -4,10 +4,9 @@ var React = require('react-native');
 var {
   View,
   PropTypes,
-  ART: {
-    Surface
-  }
 } = React;
+
+var { Surface, Shape, Path } = require('../react-native/Libraries/ART/ReactNativeART');
 
 var Circle = require('./Shapes/Circle');
 var Sector = require('./Shapes/Sector');

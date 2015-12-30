@@ -3,12 +3,9 @@
 var React = require('react-native');
 var {
   PropTypes,
-  ART: {
-    Shape,
-    Path
-  }
 } = React;
 
+var { Surface, Shape, Path } = require('../../react-native/Libraries/ART/ReactNativeART');
 var makeSectorPath = function(x, y, angle, radius) {
   var circle = Math.PI * 2;
   var path = Path()
