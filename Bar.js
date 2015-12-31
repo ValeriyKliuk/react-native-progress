@@ -59,6 +59,7 @@ var ProgressBar = React.createClass({
       } else {
         Animated.spring(this.state.animationValue, {
           toValue: BAR_WIDTH_ZERO_POSITION,
+          bounciness: 0
         }).start();
       }
     }
@@ -118,7 +119,7 @@ var ProgressBar = React.createClass({
       height,
       width: this.state.progress.interpolate({
         inputRange: [0, 1],
-        outputRange: [0, width],
+        outputRange: [0.01, width],
       }),
       transform: [{
         translateX: this.state.animationValue.interpolate({

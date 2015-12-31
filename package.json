@@ -1,6 +1,6 @@
 {
   "name": "metpro-react-native-progress",
-  "version": "2.2.1",
+  "version": "2.2.2",
   "description": "Progress indicators and spinners for React Native using ReactART. This is a fork of the original react-native-progress to support react-native 0.12.0",
   "main": "index.js",
   "scripts": {
